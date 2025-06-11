@@ -2,23 +2,68 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f3eeee;
+    background-color: #f0f0f0;
 }
 
 #h2_pg1 {
     font-size: 21px;
+    margin-left: 30vw;
+    margin-top: 70vw;
 }
 
 button#iniciar {
     color: #fff;
     font-size: 17px;
-    background-color: rgb(27, 179, 27);
+    background-color: rgb(20, 133, 224);
     width: 17vw;
     height: 8vw;
     border-radius: 5.5px;
     border: none;
+    margin-left: 33vw;
+    width: 30%;
 }
 
 #page2 {
     display: none;
+}
+
+#flags {
+    background-color: rgb(187, 186, 186);
+    padding: 50px;
+    color: #fff;  
+}
+
+#h3_pg2 {
+    border-bottom: 1px solid #fff;
+}
+
+#flag_line1 {
+    display: flex;
+    height: 15vw;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+#flag_line2 {
+    display: flex;
+    height: 15vw;
+    gap: 30px;
+}
+
+#flag_line3 {
+    display: flex;
+    height: 15vw;
+    gap: 30px;
+}
+
+#no_text {
+    border-top: 1px solid #fff;
+    color: rgb(187, 186, 186);
+}
+
+#iniciar_pg2 {
+    color: #fff;
+    background-color: rgb(20, 133, 224);
+    border: none;
+    border-radius: 5.5px;
 }
